@@ -57,4 +57,4 @@ For the future, I plan to add support for:
 - [Scheduled tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduled_tasks.html).
 - ECS with internal Load Balancer
 
-Also, let me know if you're missing something, found any bugs or have any questions by creating an [issue](https://github.com/vniche/aws-vpc-pulumi/issues).
+Also, let me know if you're missing something, found any bugs or have any questions by creating an [issue](https://github.com/vniche/aws-container-pulumi/issues).

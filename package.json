@@ -1,6 +1,6 @@
 {
   "name": "@vniche/aws-container-pulumi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Pulumi NPM library to ease serverless (Fargate-backed) ECS service resources setup on AWS",
   "repository": {
     "type": "git",
