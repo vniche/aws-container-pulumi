@@ -1,0 +1,38 @@
+{
+  "name": "@vniche/aws-container-pulumi",
+  "version": "0.0.1",
+  "description": "A Pulumi NPM library to ease serverless (Fargate-backed) ECS service resources setup on AWS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vniche/aws-container-pulumi.git"
+  },
+  "scripts": {
+    "build": "rm -rf bin && tsc && cp README.md LICENSE package.json bin/"
+  },
+  "keywords": [
+    "pulumi",
+    "infrastructureascode",
+    "aws",
+    "serverless",
+    "container"
+  ],
+  "author": "Vinicius Niche Correa <viniciusnichecorrea@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vniche/aws-container-pulumi/issues"
+  },
+  "homepage": "https://github.com/vniche/aws-container-pulumi#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.10.0",
+    "@pulumi/pulumi": "^3.94.2",
+    "@pulumi/random": "^4.14.0",
+    "@vniche/aws-vpc-pulumi": "^0.0.10"
+  }
+}
